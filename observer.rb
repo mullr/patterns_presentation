@@ -21,6 +21,6 @@ class AModel
 end
 
 test = AModel.new
-test.observe_a_with ->(val) { puts "The value is #{val}" }
+test.observe_a_with ->(val) { puts "The value of a is #{val}" }
 
 test.a = 42
